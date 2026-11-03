@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "catalogType": "documentation-resources",
+  "checkedAt": "2026-11-03",
+  "applicationVersion": "0.9.122",
+  "notApplicationImport": true,
+  "resources": [
+    {
+      "id": "beydosh.feature-status.0.9.121",
+      "path": "references/0.9.121/funktionsstand.json",
+      "kind": "reference",
+      "format": "application/json",
+      "applicationVersion": "0.9.121",
+      "status": "documented-release-scope",
+      "guide": "https://github.com/Beydosh/docs/blob/main/versions/0.9.121/README.md",
+      "limitations": [
+        "No executable commands or application import format",
+        "Not a commercial sales approval"
+      ]
+    },
+    {
+      "id": "beydosh.feature-status.0.9.122",
+      "path": "references/0.9.122/funktionsstand.json",
+      "kind": "reference",
+      "format": "application/json",
+      "applicationVersion": "0.9.122",
+      "status": "documented-release-scope",
+      "guide": "https://github.com/Beydosh/docs/blob/main/versions/0.9.122/README.md",
+      "limitations": [
+        "No executable commands or application import format",
+        "Selling profiles remain local",
+        "Not an end-to-end live sales approval"
+      ]
+    },
+    {
+      "id": "beydosh.support-request",
+      "path": "templates/support-anfrage.md",
+      "kind": "support-template",
+      "format": "text/markdown",
+      "applicationVersion": "0.9.122",
+      "status": "template",
+      "guide": "https://github.com/Beydosh/docs/blob/main/versions/0.9.122/fehlerbehebung.md",
+      "limitations": [
+        "No credentials, private logs or customer data",
+        "Review and redact before sending"
+      ],
+      "supportedVersions": [
+        "0.9.121",
+        "0.9.122"
+      ]
+    }
+  ],
+  "supportedVersions": [
+    "0.9.121",
+    "0.9.122"
+  ]
+}

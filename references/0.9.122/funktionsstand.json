@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "resourceId": "beydosh.feature-status.0.9.122",
+  "kind": "reference",
+  "applicationVersion": "0.9.122",
+  "releaseStatus": "beta",
+  "checkedAt": "2026-11-03",
+  "sourceCommit": "0fcc60b35d6df8b3e717e363860caa7f67e5aeab",
+  "notApplicationImport": true,
+  "guide": "https://github.com/Beydosh/docs/blob/main/versions/0.9.122/README.md",
+  "release": "https://github.com/Beydosh/releases/releases/tag/v0.9.122",
+  "features": [
+    {
+      "id": "website-password-account",
+      "status": "available",
+      "scope": "Website registration and username-or-email password login with email verification"
+    },
+    {
+      "id": "launcher-account-login",
+      "status": "available",
+      "scope": "Username/password with separate PIM permission; account plan does not replace permission"
+    },
+    {
+      "id": "company-profile",
+      "status": "available",
+      "scope": "Central name, logo and standard shipping address; confirmed owner writes, members read"
+    },
+    {
+      "id": "company-shipping-sync",
+      "status": "available",
+      "scope": "Existing explicit central synchronization preserved; PIM location now under Verkauf & Versand"
+    },
+    {
+      "id": "local-selling-profiles",
+      "status": "available",
+      "storage": "local-per-account-company-workspace",
+      "scope": "Shop standard and optional channel/type/product exceptions; no website synchronization"
+    },
+    {
+      "id": "buyer-quantity-shipping",
+      "status": "available",
+      "scope": "Additional item amount and full free-shipping threshold are distinct; missing old values stay unknown"
+    },
+    {
+      "id": "ebay-business-policy-create",
+      "status": "available-with-explicit-consent-and-validation",
+      "scope": "Missing shipping/payment/return policies; requires current seller/market/environment context and dedicated consent; uncertain result must be reconciled"
+    },
+    {
+      "id": "ebay-quantity-shipping-action",
+      "status": "available-with-explicit-consent-and-validation",
+      "scope": "Shared seller/market action affects participating policies and mixed baskets; concrete participation must be checked"
+    },
+    {
+      "id": "local-business-data-sync-on-login",
+      "status": "not-performed"
+    },
+    {
+      "id": "group-invitations",
+      "status": "planned"
+    },
+    {
+      "id": "core-collaboration",
+      "status": "planned"
+    },
+    {
+      "id": "mobile-applications",
+      "status": "planned"
+    },
+    {
+      "id": "passkeys-and-additional-authenticator",
+      "status": "planned"
+    },
+    {
+      "id": "public-api-cli-mcp-reference",
+      "status": "not-published"
+    }
+  ],
+  "boundaries": [
+    "New selling profiles are local, not synchronized with the website",
+    "Company address sync does not create provider locations or modify offers",
+    "Buyer shipping amount is separate from supplier cost and internal pricing rules",
+    "Profile/policy setup does not publish an offer",
+    "Release tests and publication do not prove installation or actual seller writes",
+    "No completed end-to-end live sales/order acceptance is established by this reference"
+  ]
+}

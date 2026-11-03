@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "resourceId": "beydosh.feature-status.0.9.121",
+  "kind": "reference",
+  "applicationVersion": "0.9.121",
+  "releaseStatus": "beta",
+  "checkedAt": "2026-11-02",
+  "notApplicationImport": true,
+  "guide": "https://github.com/Beydosh/docs/blob/main/versions/0.9.121/README.md",
+  "features": [
+    {
+      "id": "website-password-account",
+      "status": "available",
+      "scope": "Website registration and username-or-email password login with email verification"
+    },
+    {
+      "id": "launcher-account-login",
+      "status": "available",
+      "scope": "Username/password; separate PIM permission required; account plan is not that permission"
+    },
+    {
+      "id": "company-profile",
+      "status": "available",
+      "scope": "Central name, logo and standard shipping address; confirmed owner writes, members read"
+    },
+    {
+      "id": "company-shipping-sync",
+      "status": "available",
+      "scope": "PIM 0.9.121 and website; local candidate transfer is explicit; concurrent updates protected"
+    },
+    {
+      "id": "local-business-data-sync-on-login",
+      "status": "not-performed",
+      "scope": "Login does not synchronize local products, prices, stock, orders or channel credentials"
+    },
+    {
+      "id": "ebay-business-policy-create",
+      "status": "not-available-in-release",
+      "scope": "Existing policies can be read/assigned; creation from PIM is not provided in 0.9.121"
+    },
+    {
+      "id": "group-invitations",
+      "status": "planned"
+    },
+    {
+      "id": "core-collaboration",
+      "status": "planned"
+    },
+    {
+      "id": "mobile-applications",
+      "status": "planned"
+    },
+    {
+      "id": "passkeys-and-additional-authenticator",
+      "status": "planned"
+    },
+    {
+      "id": "public-api-cli-mcp-reference",
+      "status": "not-published"
+    }
+  ],
+  "boundaries": [
+    "Website on beydosh.com; central services on beydosh.global service subdomains",
+    "Shop currency and channel-specific shipping overrides remain local",
+    "Company metadata sync does not create provider locations or modify offers",
+    "Production account connection is not end-to-end sales approval",
+    "No automatic provider-side changes or general commercial readiness implied"
+  ]
+}
