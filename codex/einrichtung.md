@@ -26,4 +26,4 @@ Für einen einzelnen Aufruf über den Launcher werden pro Zeile JSON-RPC-Nachric
 - Produktänderungen oder Verkaufszustände zur Prüfung vorbereiten.
 - Einen vorbereiteten Entwurf nach ausdrücklicher Bestätigung speichern. Für Veröffentlichung und Beendigung gelten die normalen PIM- und Plattformfreigaben.
 
-Die Freigabe gilt für das angemeldete PIM-Konto und den aktuellen Arbeitsbereich auf diesem PC. Sie lässt sich unter **Einstellungen → Konto → Codex → Codex trennen** widerrufen. PIM muss für den Zugriff geöffnet bleiben. Diese Anleitung enthält öffentliche Informationen. Produktdaten, Zugangsdaten und die Zustimmung bleiben lokal.
+Die Freigabe gilt für das angemeldete PIM-Konto und den aktuellen Arbeitsbereich auf diesem PC. Status, KI-Ressourcen und **Codex trennen** findest du unter **Einstellungen → KI & Automatisierung → Codex-Steuerung**. PIM muss für den Zugriff geöffnet bleiben. Diese Anleitung enthält öffentliche Informationen. Produktdaten, Zugangsdaten und die Zustimmung bleiben lokal.
