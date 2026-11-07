@@ -48,6 +48,19 @@
         "0.9.121",
         "0.9.122"
       ]
+    },
+    {
+      "id": "beydosh.codex.setup",
+      "path": "codex/einrichtung.md",
+      "kind": "setup-guide",
+      "format": "text/markdown",
+      "status": "requires-capability",
+      "requiresTool": "pim_request_access",
+      "guide": "https://github.com/Beydosh/resources/blob/main/codex/einrichtung.md",
+      "limitations": [
+        "Requires a local Windows Codex session and an installed Beydosh PIM with pim_request_access",
+        "Access requires confirmation in Beydosh PIM"
+      ]
     }
   ],
   "supportedVersions": [

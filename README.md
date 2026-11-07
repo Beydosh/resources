@@ -4,6 +4,8 @@ Lesbare Hilfen für Beydosh-Nutzer und ihre KI-Unterstützung. **Stand: 03.11.20
 
 ## Verfügbare Ressourcen
 
+- [Beydosh PIM mit Codex verbinden](codex/einrichtung.md): Einrichtung durch Codex, lokale Zugriffsfreigabe und verfügbare PIM-Werkzeuge.
+
 - [Katalog](catalog.json): maschinenlesbarer Index dieser Hilfen.
 - [Funktionsstand 0.9.122](references/0.9.122/funktionsstand.json): lokale Verkaufsprofile, Versandstaffeln und gesondert geprüfte eBay-Richtlinienanlage.
 - [Historischer Funktionsstand 0.9.121](references/0.9.121/funktionsstand.json): vorheriger Versionsumfang bleibt erhalten.
