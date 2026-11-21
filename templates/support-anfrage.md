@@ -1,6 +1,6 @@
 # Support-Anfrage zu Beydosh
 
-**Textvorlage · Bezug: PIM 0.9.121 und 0.9.122 · Stand 03.11.2026.**
+**Textvorlage · Stand 21.11.2026 · PIM 0.9.154.**
 Keine Importdatei. Vor dem Senden selbst prüfen und sensible Angaben entfernen.
 
 - PIM-Version und gegebenenfalls Launcher-Version:
@@ -14,6 +14,7 @@ Keine Importdatei. Vor dem Senden selbst prüfen und sensible Angaben entfernen.
 - Bei Unternehmensabgleich: zentrale Speicherung bestätigt, nicht bestätigt oder nur lokal gespeichert:
 - Bei Verkaufsprofilen ab 0.9.122: wirksamer Shopstandard oder Ausnahme; nur lokale Speicherung, keine Zugangsdaten:
 - Bei eBay: Sandbox oder Production, ohne Kontozugangsdaten:
+- Bei Codex: Verbindungsstatus, betroffener Werkzeugname und ob der gespeicherte Stand danach geprüft wurde:
 - Bereits ausprobierte Schritte:
 
 Nur bereinigte Screenshots ergänzen. Keine Passwörter, Anmelde-/Bestätigungs-/Rücksetzlinks, Schlüssel, Tokens, Kundendaten oder vollständigen privaten Protokolle anhängen. Für Beispiele künstliche Namen und Werte verwenden.

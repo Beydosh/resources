@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "catalogType": "documentation-resources",
-  "checkedAt": "2026-11-03",
-  "applicationVersion": "0.9.122",
+  "checkedAt": "2026-11-21",
+  "applicationVersion": "0.9.154",
   "notApplicationImport": true,
   "resources": [
     {
@@ -37,16 +37,17 @@
       "path": "templates/support-anfrage.md",
       "kind": "support-template",
       "format": "text/markdown",
-      "applicationVersion": "0.9.122",
+      "applicationVersion": "0.9.154",
       "status": "template",
-      "guide": "https://github.com/Beydosh/docs/blob/main/versions/0.9.122/fehlerbehebung.md",
+      "guide": "https://github.com/Beydosh/docs/blob/main/versions/0.9.154/updates-und-daten.md",
       "limitations": [
         "No credentials, private logs or customer data",
         "Review and redact before sending"
       ],
       "supportedVersions": [
         "0.9.121",
-        "0.9.122"
+        "0.9.122",
+        "0.9.154"
       ]
     },
     {
@@ -61,10 +62,29 @@
         "Requires a local Windows Codex session and an installed Beydosh PIM with pim_request_access",
         "Access requires confirmation in Beydosh PIM"
       ]
+    },
+    {
+      "id": "beydosh.codex.batches",
+      "title": "Produkte paketweise bearbeiten",
+      "path": "codex/sammelbearbeitung.md",
+      "kind": "guide",
+      "format": "text/markdown",
+      "applicationVersion": "0.9.154",
+      "status": "documented"
+    },
+    {
+      "id": "beydosh.codex.diagnostics",
+      "title": "Status, Updates und Fehler einordnen",
+      "path": "codex/status-und-fehler.md",
+      "kind": "guide",
+      "format": "text/markdown",
+      "applicationVersion": "0.9.154",
+      "status": "documented"
     }
   ],
   "supportedVersions": [
     "0.9.121",
-    "0.9.122"
+    "0.9.122",
+    "0.9.154"
   ]
 }
